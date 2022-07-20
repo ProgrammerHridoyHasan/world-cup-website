@@ -58,11 +58,17 @@ body{
 
 
 /* main section start */
-.transfer{
+
+.player-transfer{
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 1321px;
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
 }
+
 .blog-info button{
     width: 100px;
     height: 32px;
@@ -90,7 +96,7 @@ body{
 }
 .footer-nav{
     justify-items: center;
-        justify-content: space-between;
+    justify-content: space-between;
 }
 .footer-nav a{
     text-decoration: none; 
