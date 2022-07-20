@@ -81,15 +81,20 @@ body{
     width: 312px;
     height: 312px;
     border-radius: 10px;
-    
+   
 }
+.button-size{
+    width: 252px;
+    height: 252px;
+    
+   
+} 
 .update-text button{
     width: 252px;
     height: 64px;
     border-radius: 10px;
     font-size: 20px;
-    margin: 20px;
-    
+    margin: 20px; 
     
 }
 .blog-button{
