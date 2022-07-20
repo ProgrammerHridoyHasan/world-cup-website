@@ -61,18 +61,40 @@ body{
 
 .player-transfer{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     width: 1321px;
     grid-row-gap: 24px;
     grid-column-gap: 24px;
+    margin-top: 130px;
+    margin-left: 290px;
 }
 
 .blog-info button{
     width: 100px;
     height: 32px;
     font-size: 20px;
+}
+.match-update{
+    background: black;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    
+}
+.update-text button{
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 20px;
+    
+    
+}
+.blog-button{
+    background: red;
+    color: white;
 }
 .fa-clock{
     margin-left: 10px;
