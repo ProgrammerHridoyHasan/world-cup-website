@@ -75,6 +75,7 @@ body{
     width: 100px;
     height: 32px;
     font-size: 20px;
+    border-radius: 5px;
 }
 .match-update{
     background: black;
@@ -85,8 +86,7 @@ body{
 }
 .button-size{
     width: 252px;
-    height: 252px;
-    
+    height: 252px;    
    
 } 
 .update-text button{
@@ -149,7 +149,7 @@ body{
     padding: 20px;
     
 }
-.fa-facebook, .fa-linkedin, .fa-instagram{  
+.fa-facebook, .fa-linkedin, .fa-instagram, .fa-twitter{  
     font-size: 25px;
     margin: 0 30px;
     margin-top: 40px;
@@ -162,5 +162,8 @@ body{
 }
 .fa-instagram{
     color:#C13584;
+}
+.fa-twitter{
+    color: #00acee;
 }
 /* end footer section */
